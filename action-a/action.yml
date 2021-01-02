@@ -1,0 +1,17 @@
+name: "Hello Actions"
+description: "Great someone"
+author: "octocat@github.com"
+
+inputs:
+  MY_NAME:
+    description: "Who to great"
+    required: true
+    default: "World"
+
+runs:
+  using: "docker"
+  image: "DockeFile"
+
+branding:
+  icon: "mic"
+  color: "purple"
